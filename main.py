@@ -19,6 +19,7 @@ def main():
     print("Analyzing news articles...")
     analyzer()
 
+
     print("Done.")
 
 
