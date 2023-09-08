@@ -33,7 +33,7 @@ Before using News Analyzer, make sure you have the following dependencies instal
    ```bash
    pip install -r requirements.txt
    ```
-4. Set your PALM API key in the [newsanalyzer.py](#newsanalyzer.py) script:
+4. Set your PALM API key in the [newsanalyzer.py](https://github.com/yasanthaniroshan/news-Analyzer/blob/main/news_analyzer.py) script:
    ```python
    PALM_API_KEY = "YOUR_API_KEY"
    ```
