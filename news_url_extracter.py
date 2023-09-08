@@ -142,7 +142,7 @@ def write_data_list_to_csv(news_list: list, file_path: str = "news_url_list.csv"
         csv_writer.writerows(news_list)   # Write the list of dictionaries to the CSV file.
 
 
-def main():
+def extracter()->None:
     """
     Fetches, extracts, and writes news data to a CSV file.
 
@@ -156,13 +156,13 @@ def main():
         None
 
     Example:
-        To start the process, call the main function as follows:
-        >>> main()
+        To start the process, call the extracter function as follows:
+        >>> extracter()
 
     Note:
         Make sure to import the required functions (getting_data, extract_data, and
         write_data_list_to_csv) and define the constant NUMBER_OF_NEWS_PER_PAGE before
-        calling the main function.
+        calling the extracter function.
     """
     total_news = 0   # Initialize a counter for the total number of news articles extracted.
 
@@ -183,5 +183,5 @@ def main():
         print("Current page:", current_page + 1)
         print("Total news extracted:", total_news)
 
-if __name__ == "__main__":   # If the script is being executed directly.
-    main()  # Execute the main function.
+
+
